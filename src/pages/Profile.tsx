@@ -100,7 +100,7 @@ export function ProfilePage() {
             </div>
           </div>
 
-          {profileData.external_links?.length > 0 && (
+                  {profileData.external_links?.length > 0 && (
             <div className="flex flex-wrap gap-2">
               {profileData.external_links.map((link: any, idx: number) => (
                 <a
@@ -114,10 +114,8 @@ export function ProfilePage() {
                   {link.label}
                 </a>
               ))}
-            </a> <div>
-          )} 
-        </Card>
-
+            </div>
+          )}
         {/* Posts */}
           <h2 className="text-xl font-display font-semibold text-white mb-4">Posts</h2>
           <div className="space-y-4">
