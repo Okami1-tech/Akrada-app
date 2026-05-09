@@ -4,8 +4,9 @@
 
 @layer base {
   body {
-    @apply bg-surface-DEFAULT text-white font-body;
+    @apply bg-black text-white;
     color-scheme: dark;
+    font-family: sans-serif;
   }
 
   html {
@@ -42,6 +43,6 @@
   }
 
   .glow-text {
-    @apply text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-electric-glow;
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500;
   }
 }
