@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider } from '@/hooks/useAuth';
+import { AuthProvider } from './hooks/useAuth';
 import { Toaster } from 'react-hot-toast';
-import { LoginPage } from '@/pages/Login';
-import { FeedPage } from '@/pages/Feed';
-import { ExplorePage } from '@/pages/Explore';
-import { ClubsPage } from '@/pages/Clubs';
-import { ProfilePage } from '@/pages/Profile';
-import { NotificationsPage } from '@/pages/Notifications';
-import { ProtectedRoute } from '@/pages/ProtectedRoute';
+import { LoginPage } from './pages/Login';
+import { FeedPage } from './pages/Feed';
+import { ExplorePage } from './pages/Explore';
+import { ClubsPage } from './pages/Clubs';
+import { ProfilePage } from './pages/Profile';
+import { NotificationsPage } from './pages/Notifications';
+import { ProtectedRoute } from './pages/ProtectedRoute';
 
 function App() {
   return (
