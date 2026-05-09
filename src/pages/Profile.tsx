@@ -114,12 +114,11 @@ export function ProfilePage() {
                   {link.label}
                 </a>
               ))}
-            </a>
-          )}
+            </a> <div>
+          )} 
         </Card>
 
         {/* Posts */}
-        <div>
           <h2 className="text-xl font-display font-semibold text-white mb-4">Posts</h2>
           <div className="space-y-4">
             {posts.length === 0 ? (
